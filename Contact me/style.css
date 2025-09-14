@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: pollins;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.conc {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.conc h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	color: #fff;
+	text-shadow: 0 2px 0 rgba(,0,0,0,0.5);
+		
+}
+
+.conc p {
+	font-size: 30px;
+	color: #fff;
+	line-height: 35px;
+	margin: 0;
+}
+
+.conc a {
+	background: crimson;
+	display: inline-block;
+	text-decoration: none;
+	padding:10px 25px;
+	border-radius: 5px;
+	color: #fff;
+	margin-top: -30px;
+}
+
+span:before {
+	color: crimson;
+	animation: animate infinite 10s;
+	content: '';
+	font-size: 50px;
+}
+
+@keyframes animate {
+	0% {
+		content: ' - No 999930xxxx';
+	}
+
+	25% {
+		content: ' - No 989140xxxx'
+	}
+
+	50% {
+		content: ' - Eamil Me At'
+	}
+
+	75% {
+		content: ' - ManitKaritik297'
+	}
+
+	100% {
+		content: ' - ManitKaritik297'
+	}
+}
+
+
+
+
